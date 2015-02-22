@@ -35,19 +35,15 @@ description
 
 ###Variables
 
-1
+1	`subject	(Integer)`
 
-  subject (Integer)
+	Subject label. Possible values 1-30
 
-Subject label. Possible values 1-30
+2	`activity	(Character)`
 
-	
-2
-  activity (Character)
-
-Activity type Possible values: walking; walkingupstairs; walkingdownstairs; sitting; standing; laying
+	Activity type Possible values: walking; walkingupstairs; walkingdownstairs; sitting; standing; laying
 		
-	3	tBodyAccMeanX			(Numeric)
+3	`tBodyAccMeanX	(Numeric)`
 
 	Average of time-domain mean linear body acceleration in x-axis
 		
