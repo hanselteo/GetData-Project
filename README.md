@@ -7,8 +7,8 @@ Prepared by J.X. Hansel Teo
 ###Overview
 
 run_analysis.R is a script to be applied to the Human Activity Recognition Using Smartphones Dataset
-The raw data is presumed to be saved in the working directory under the subdirectory "~/Dataset", with "Test" and "Training" datasets found in the subdirectories "~/Dataset/test" and "~/Dataset/train" respectively.
-This corresponds to copying the contents of the "UCI HAR Dataset" into the subdirectory "~/Dataset" in your working directory.
+The raw data is presumed to be saved in the working directory under the subdirectory "~/UCI HAR Dataset", with "Test" and "Training" datasets found in the subdirectories "~/UCI HAR Dataset/test" and "~/UCI HAR Dataset/train" respectively.
+This corresponds to copying the contents of the "UCI HAR Dataset" into your working directory.
 
 In accordance with the project brief, run_analysis.R performs the following in order:
 
