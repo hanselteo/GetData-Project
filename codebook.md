@@ -27,10 +27,11 @@ Details of the underlying measurements can be found at the end of this codebook
 ---------------------------------------------------------------------
 
 The codebook entries are formatted as follows:
+```
 0	`variable	(Variable class)`
 
 description
-
+```
 ---------------------------------------------------------------------
 ---------------------------------------------------------------------
 
