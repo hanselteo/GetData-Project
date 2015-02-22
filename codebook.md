@@ -27,19 +27,23 @@ Details of the underlying measurements can be found at the end of this codebook
 ---------------------------------------------------------------------
 
 The codebook entries are formatted as follows:
-#	variable					(Variable class)
-	description
+variable					(Variable class)
+description
 
 ---------------------------------------------------------------------
 ---------------------------------------------------------------------
 
 ###Variables
 
-1		subject					(Integer)
+1
+
+  subject (Integer)
 
 Subject label. Possible values 1-30
+
 	
-2		activity					(Character)
+2
+  activity (Character)
 
 Activity type Possible values: walking; walkingupstairs; walkingdownstairs; sitting; standing; laying
 		
