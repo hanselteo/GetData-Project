@@ -1,5 +1,3 @@
-setwd("~/Data/R/Coursera/03_GetCleanData_Project")
-
 ### Required packages
 require(data.table)
 require(reshape2)
@@ -9,20 +7,20 @@ require(plyr)
 ### Read "Test" dataset (X_test.txt) and save onto workspace as a data.table
 ### First two lines of code determine column classes from an initial reading of first 50 rows
 ### This procedure is aimed to (marginally) improve read.table times for this large dataset
-initial <- read.table("./Dataset/test/X_test.txt")
+initial <- read.table("./UCI HAR Dataset/test/X_test.txt")
 classes <- sapply(initial, class)
-testset <- data.table(read.table("./Dataset/test/X_test.txt", 
+testset <- data.table(read.table("./UCI HAR Dataset/test/X_test.txt", 
                                  colClasses = classes, comment.char = ""))
 rm("initial")
 rm("classes")
 
 ### Read "Test" activity labels (y_test.txt) and subject labels (subject_test.txt)
 ### Column classes procedure not carried out here since both tables are relatively small
-testactlabs <- data.table(read.table("./Dataset/test/y_test.txt", comment.char = ""))
-testsublabs <- data.table(read.table("./Dataset/test/subject_test.txt", comment.char = ""))
+testactlabs <- data.table(read.table("./UCI HAR Dataset/test/y_test.txt", comment.char = ""))
+testsublabs <- data.table(read.table("./UCI HAR Dataset/test/subject_test.txt", comment.char = ""))
 
 ### Read variable names (features.txt)
-varnames <- data.table(read.table("./Dataset/features.txt", comment.char = ""))
+varnames <- data.table(read.table("./UCI HAR Dataset/features.txt", comment.char = ""))
 
 ### Set column names for testset
 setnames(testset, as.character(varnames[,V2]))
@@ -36,17 +34,17 @@ testset <- mutate(testset, subject = testsublabs$V1,
 ### Read "Training" dataset (X_train.txt) and save onto workspace as a data.table
 ### First two lines of code determine column classes from an initial reading of first 50 rows
 ### This procedure is aimed to (marginally) improve read.table times for this large dataset
-initial <- read.table("./Dataset/train/X_train.txt", nrows = 50)
+initial <- read.table("./UCI HAR Dataset/train/X_train.txt", nrows = 50)
 classes <- sapply(initial, class)
-trainset <- data.table(read.table("./Dataset/train/X_train.txt", 
+trainset <- data.table(read.table("./UCI HAR Dataset/train/X_train.txt", 
                                   colClasses = classes, nrows = 7400, comment.char = ""))
 rm("initial")
 rm("classes")
 
 ### Read "Training" activity labels (y_train.txt) and subject labels (subject_train.txt)
 ### Column classes procedure not carried out here since both tables are relatively small
-trainactlabs <- data.table(read.table("./Dataset/train/y_train.txt"))
-trainsublabs <- data.table(read.table("./Dataset/train/subject_train.txt"))
+trainactlabs <- data.table(read.table("./UCI HAR Dataset/train/y_train.txt"))
+trainsublabs <- data.table(read.table("./UCI HAR Dataset/train/subject_train.txt"))
 
 ### Set column names for trainset
 setnames(trainset, as.character(varnames[,V2]))
@@ -96,7 +94,7 @@ colnames(shortmerge) <- gsub("-", "", colnames(shortmerge))
 shortmerge <- arrange(shortmerge, activity, subject)
 
 ### Read activity names from "activity_lables.txt"
-activitynames <- read.table("./Dataset/activity_labels.txt", stringsAsFactors = FALSE)
+activitynames <- read.table("./UCI HAR Dataset/activity_labels.txt", stringsAsFactors = FALSE)
 
 ### Edits activity names to meet tidy data requirements
 ### by removing "-" and changing to lower-case
