@@ -1,6 +1,3 @@
-# GetData-Project
-Getting and Cleaning Data Project
-
 ##README for run_analysis.R
 Prepared by J.X. Hansel Teo
 
