@@ -27,7 +27,8 @@ Details of the underlying measurements can be found at the end of this codebook
 ---------------------------------------------------------------------
 
 The codebook entries are formatted as follows:
-variable					(Variable class)
+0	`variable	(Variable class)`
+
 description
 
 ---------------------------------------------------------------------
@@ -41,7 +42,14 @@ Subject label. Possible values 1-30
 
 2	`activity	(Character)`
 
-Activity type Possible values: walking; walkingupstairs; walkingdownstairs; sitting; standing; laying
+Activity type. 
+Possible values:
+- walking
+- walkingupstairs
+- walkingdownstairs
+- sitting
+- standing
+- laying
 		
 3	`tBodyAccMeanX	(Numeric)`
 
