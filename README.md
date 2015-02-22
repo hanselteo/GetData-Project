@@ -74,9 +74,9 @@ The tidy dataset of computed averages is created using a two-step melt and cast 
 
 shortmerge is melted with 'subject' and 'activity' declared as identifier variables and the rest as measurement variables.
 The final dataset, tidy, is then created by applying dcast on the melted data and returning the mean of the measurement variables.
-The final dataset, tidy, is tall and slim (
+The final dataset, tidy, is tall and slim (180 rows, 68 columns), has each column corresponding to a separate variable and each row corresponding to a separate observation (where an observation is the average computed for each subject and activity) and hence satisfies the tidy-data principles.
 
-Finally, data is saved via write.table(, rownames = FALSE) as tidydata.txt for submission.
+This dataset is saved as a .txt via write.table(, rownames = FALSE) as tidydata.txt for submission.
 
 ---------------------------------------------------------------------
 ---------------------------------------------------------------------
