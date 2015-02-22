@@ -19,7 +19,7 @@ The variables 'subject' and 'activity' are identifying labels, where 'subject' i
 and 'activity' is the identifier for the type of activity performed by subjects.
 
 All other variables are the averages of the underlying "feature" measurement variables computed for each activity and each subject.
-All underlying "feature" variables are normalized and bounded within [-1,1], hence all averages reported in the present data are bounded as well.
+All underlying "feature" variables are normalized and bounded within [-1,1], hence all averages reported in the present data are similarly bounded and normalized.
 
 Details of the underlying measurements can be found at the end of this codebook
 
