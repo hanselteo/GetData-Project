@@ -109,202 +109,203 @@ Average time-domain standard deviation of linear body acceleration jerk signals 
 	
 19 	`tBodyAccJerkStddevY	(Numeric)`
 
-	Average time-domain standard deviation of linear body acceleration jerk signals in y-axis
+Average time-domain standard deviation of linear body acceleration jerk signals in y-axis
 
 20	`tBodyAccJerkStddevZ	(Numeric)`
 
-	Average time-domain standard deviation of linear body acceleration jerk signals in z-axis
+Average time-domain standard deviation of linear body acceleration jerk signals in z-axis
 
-21 	tBodyGyroMeanX		(Numeric)
+21 	`tBodyGyroMeanX		(Numeric)`
 
-	Average of time-domain mean body angular velocity in x-axis
+Average of time-domain mean body angular velocity in x-axis
 	
-22 	tBodyGyroMeanY		(Numeric)
+22 	`tBodyGyroMeanY		(Numeric)`
 
-	Average of time-domain mean body angular velocity in y-axis
+Average of time-domain mean body angular velocity in y-axis
 	
-23	tBodyGyroMeanZ		(Numeric)
+23	`tBodyGyroMeanZ		(Numeric)`
 
-	Average of time-domain mean body angular velocity in z-axis
+Average of time-domain mean body angular velocity in z-axis
 	
-24 	tBodyGyroStddevX	(Numeric)
+24 	`tBodyGyroStddevX	(Numeric)`
 
-	Average time-domain standard deviation of body angular velocity in x-axis
+Average time-domain standard deviation of body angular velocity in x-axis
 	
-25 	tBodyGyroStddevY	(Numeric)
+25 	`tBodyGyroStddevY	(Numeric)`
 
-	Average time-domain standard deviation of body angular velocity in y-axis
+Average time-domain standard deviation of body angular velocity in y-axis
 	
-26 	tBodyGyroStddevZ	(Numeric)
+26 	`tBodyGyroStddevZ	(Numeric)`
 
-	Average time-domain standard deviation of body angular velocity in z-axis
+Average time-domain standard deviation of body angular velocity in z-axis
 
-27 	tBodyGyroJerkMeanX	(Numeric)
+27 	`tBodyGyroJerkMeanX	(Numeric)`
 
-	Average of time-domain mean body angular velocity jerk signals in x-axis
+Average of time-domain mean body angular velocity jerk signals in x-axis
 
-28 	tBodyGyroJerkMeanY	(Numeric)
+28 	`tBodyGyroJerkMeanY	(Numeric)`
 
-	Average of time-domain mean body angular velocity jerk signals in y-axis
+Average of time-domain mean body angular velocity jerk signals in y-axis
 
-29 	tBodyGyroJerkMeanZ	(Numeric)
+29 	`tBodyGyroJerkMeanZ	(Numeric)`
 
-	Average of time-domain mean body angular velocity jerk signals in z-axis
+Average of time-domain mean body angular velocity jerk signals in z-axis
 
-30 	tBodyGyroJerkStddevX	(Numeric)
+30 	`tBodyGyroJerkStddevX	(Numeric)`
 
-	Average time-domain standard deviation of body angular velocity jerk signals in x-axis 
+Average time-domain standard deviation of body angular velocity jerk signals in x-axis 
 
-31 	tBodyGyroJerkStddevY	(Numeric)
+31 	`tBodyGyroJerkStddevY	(Numeric)`
 
-	Average time-domain standard deviation of body angular velocity jerk signals in y-axis
+Average time-domain standard deviation of body angular velocity jerk signals in y-axis
 
-32 	tBodyGyroJerkStddevZ	(Numeric)
+32 	`tBodyGyroJerkStddevZ	(Numeric)`
 
-	Average time-domain standard deviation of body angular velocity jerk signals in z-axis
+Average time-domain standard deviation of body angular velocity jerk signals in z-axis
 
-33 	tBodyAccMagMean		(Numeric)
+33 	`tBodyAccMagMean	(Numeric)`
 
-	Average of time-domain mean linear body acceleration magnitude (Euclidean norm)
+Average of time-domain mean linear body acceleration magnitude (Euclidean norm)
 
-34 	tBodyAccMagStddev	(Numeric)
+34 	`tBodyAccMagStddev	(Numeric)`
 
-	Average time-domain standard deviation of linear body acceleration magnitude (Euclidean norm) 
+Average time-domain standard deviation of linear body acceleration magnitude (Euclidean norm) 
 	
-35 	tGravityAccMagMean	(Numeric)
+35 	`tGravityAccMagMean	(Numeric)`
 
-	Average of time-domain mean linear gravity acceleration magnitude (Euclidean norm)
+Average of time-domain mean linear gravity acceleration magnitude (Euclidean norm)
 	
-36 	tGravityAccMagStddev	(Numeric)
+36 	`tGravityAccMagStddev	(Numeric)`
 
-	Average time-domain standard deviation of linear gravity acceleration magnitude (Euclidean norm) 
+Average time-domain standard deviation of linear gravity acceleration magnitude (Euclidean norm) 
 
-37 	tBodyAccJerkMagMean	(Numeric)
+37 	`tBodyAccJerkMagMean	(Numeric)`
 
-	Average of time-domain mean linear body acceleration jerk signal magnitude (Euclidean norm)
+Average of time-domain mean linear body acceleration jerk signal magnitude (Euclidean norm)
 	
-38 	tBodyAccJerkMagStddev	(Numeric)
+38 	`tBodyAccJerkMagStddev	(Numeric)`
 
-	Average time-domain standard deviation of linear body acceleration jerk signal magnitude (Euclidean norm)
+Average time-domain standard deviation of linear body acceleration jerk signal magnitude (Euclidean norm)
 	
-39 	tBodyGyroMagMean	(Numeric)
+39 	`tBodyGyroMagMean	(Numeric)`
 
-	Average of time-domain mean body angular velocity magnitude (Euclidean norm)
+Average of time-domain mean body angular velocity magnitude (Euclidean norm)
 
-40 	tBodyGyroMagStddev	(Numeric)
+40 	`tBodyGyroMagStddev	(Numeric)`
 
-	Average time-domain standard deviation of body angular velocity magnitude (Euclidean norm)
+Average time-domain standard deviation of body angular velocity magnitude (Euclidean norm)
 	
-41 	tBodyGyroJerkMagMean	(Numeric)
+41 	`tBodyGyroJerkMagMean	(Numeric)`
 
-	Average of time-domain mean body angular velocity jerk signal magnitude (Euclidean norm)
+Average of time-domain mean body angular velocity jerk signal magnitude (Euclidean norm)
 
-42 	tBodyGyroJerkMagStddev	(Numeric)
+42 	`tBodyGyroJerkMagStddev	(Numeric)`
 
-	Average time-domain standard deviation of body angular velocity jerk signal magnitude (Euclidean norm)
+Average time-domain standard deviation of body angular velocity jerk signal magnitude (Euclidean norm)
 
-43 	fBodyAccMeanX		(Numeric)
+43 	`fBodyAccMeanX		(Numeric)`
 
-	Average of frequency-domain mean linear body acceleration in x-axis
+Average of frequency-domain mean linear body acceleration in x-axis
 	
-44 	fBodyAccMeanY		(Numeric)
+44 	`fBodyAccMeanY		(Numeric)`
 
-	Average of frequency-domain mean linear body acceleration in y-axis
+Average of frequency-domain mean linear body acceleration in y-axis
 
-45	fBodyAccMeanZ		(Numeric)
+45	`fBodyAccMeanZ		(Numeric)`
 
-	Average of frequency-domain mean linear body acceleration in z-axis
+Average of frequency-domain mean linear body acceleration in z-axis
 	
-46 	fBodyAccStddevX		(Numeric)
+46 	`fBodyAccStddevX	(Numeric)`
 
-	Average frequency-domain standard deviation of linear body acceleration in x-axis
+Average frequency-domain standard deviation of linear body acceleration in x-axis
 	
-47 	fBodyAccStddevY		(Numeric)
+47 	`fBodyAccStddevY	(Numeric)`
 
-	Average frequency-domain standard deviation of linear body acceleration in y-axis
+Average frequency-domain standard deviation of linear body acceleration in y-axis
 
-48 	fBodyAccStddevZ		(Numeric)
+48 	`fBodyAccStddevZ	(Numeric)`
 
-	Average frequency-domain standard deviation of linear body acceleration in z-axis
+Average frequency-domain standard deviation of linear body acceleration in z-axis
 	
-49 	fBodyAccJerkMeanX	(Numeric)
+49 	`fBodyAccJerkMeanX	(Numeric)`
 
-	Average of frequency-domain mean linear body acceleration jerk signals in x-axis
+Average of frequency-domain mean linear body acceleration jerk signals in x-axis
 	
-50 	fBodyAccJerkMeanY	(Numeric)
+50 	`fBodyAccJerkMeanY	(Numeric)`
 
-	Average of frequency-domain mean linear body acceleration jerk signals in y-axis
+Average of frequency-domain mean linear body acceleration jerk signals in y-axis
 	
-51 	fBodyAccJerkMeanZ	(Numeric)
+51 	`fBodyAccJerkMeanZ	(Numeric)`
 
-	Average of frequency-domain mean linear body acceleration jerk signals in z-axis
+Average of frequency-domain mean linear body acceleration jerk signals in z-axis
 	
-52 	fBodyAccJerkStddevX	(Numeric)
+52 	`fBodyAccJerkStddevX	(Numeric)`
 
-	Average frequency-domain standard deviation of linear body acceleration jerk signals in x-axis
+Average frequency-domain standard deviation of linear body acceleration jerk signals in x-axis
 	
-53 	fBodyAccJerkStddevY	(Numeric)
+53 	`fBodyAccJerkStddevY	(Numeric)`
 
-	Average frequency-domain standard deviation of linear body acceleration jerk signals in y-axis
+Average frequency-domain standard deviation of linear body acceleration jerk signals in y-axis
 	
-54 	fBodyAccJerkStddevZ	(Numeric)
+54 	`fBodyAccJerkStddevZ	(Numeric)`
 
-	Average frequency-domain standard deviation of linear body acceleration jerk signals in z-axis
+Average frequency-domain standard deviation of linear body acceleration jerk signals in z-axis
 	
-55 	fBodyGyroMeanX		(Numeric)
+55 	`fBodyGyroMeanX		(Numeric)`
 
-	Average of frequency-domain mean body angular velocity in x-axis
+Average of frequency-domain mean body angular velocity in x-axis
 	
-56 	fBodyGyroMeanY		(Numeric)
+56 	`fBodyGyroMeanY		(Numeric)`
 
-	Average of frequency-domain mean body angular velocity in y-axis
+Average of frequency-domain mean body angular velocity in y-axis
 	
-57 	fBodyGyroMeanZ		(Numeric)
+57 	`fBodyGyroMeanZ		(Numeric)`
 
-	Average of frequency-domain mean body angular velocity in z-axis
+Average of frequency-domain mean body angular velocity in z-axis
 	
-58 	fBodyGyroStddevX	(Numeric)
-	Average frequency-domain standard deviation of body angular velocity in x-axis
+58 	`fBodyGyroStddevX	(Numeric)`
 	
-59 	fBodyGyroStddevY	(Numeric)
+Average frequency-domain standard deviation of body angular velocity in x-axis
+	
+59 	`fBodyGyroStddevY	(Numeric)`
 
 Average frequency-domain standard deviation of body angular velocity in y-axis
 	
-60 	fBodyGyroStddevZ	(Numeric)
+60 	`fBodyGyroStddevZ	(Numeric)`
 
-	Average frequency-domain standard deviation of body angular velocity in z-axis
+Average frequency-domain standard deviation of body angular velocity in z-axis
 	
-61	fBodyAccMagMean		(Numeric)
+61	`fBodyAccMagMean	(Numeric)`
 
-	Average of frequency-domain mean linear body acceleration magnitude (Euclidean norm)
+Average of frequency-domain mean linear body acceleration magnitude (Euclidean norm)
 				
-62 	fBodyAccMagStddev	(Numeric)
+62 	`fBodyAccMagStddev	(Numeric)`
 
-	Average frequency-domain standard deviation of linear body acceleration magnitude (Euclidean norm)
+Average frequency-domain standard deviation of linear body acceleration magnitude (Euclidean norm)
 	
-63	fBodyBodyAccJerkMagMean	(Numeric)
+63	`fBodyBodyAccJerkMagMean	(Numeric)`
 
-	Average of frequency-domain mean linear body acceleration jerk signal magnitude (Euclidean norm)
+Average of frequency-domain mean linear body acceleration jerk signal magnitude (Euclidean norm)
 
-64 	fBodyBodyAccJerkMagStddev	(Numeric)
+64 	`fBodyBodyAccJerkMagStddev	(Numeric)`
 
-	Average frequency-domain standard deviation of linear body acceleration jerk signal magnitude (Euclidean norm)
+Average frequency-domain standard deviation of linear body acceleration jerk signal magnitude (Euclidean norm)
 	
-65 	fBodyBodyGyroMagMean	(Numeric)
+65 	`fBodyBodyGyroMagMean	(Numeric)`
 
-	Average of frequency-domain mean body angular velocity magnitude (Euclidean norm)
+Average of frequency-domain mean body angular velocity magnitude (Euclidean norm)
 	
-66 	fBodyBodyGyroMagStddev	(Numeric)
+66 	`fBodyBodyGyroMagStddev	(Numeric)`
 
-	Average frequency-domain standard deviation of body angular velocity magnitude (Euclidean norm)
+Average frequency-domain standard deviation of body angular velocity magnitude (Euclidean norm)
 	
-67 	fBodyBodyGyroJerkMagMean	(Numeric)
+67 	`fBodyBodyGyroJerkMagMean	(Numeric)`
 
-	Average of frequency-domain mean body angular velocity jerk signal magnitude (Euclidean norm)
+Average of frequency-domain mean body angular velocity jerk signal magnitude (Euclidean norm)
 
-68 	fBodyBodyGyroJerkMagStddev	(Numeric)
+68	`fBodyBodyGyroJerkMagStddev	(Numeric)`
 
-	Average frequency-domain standard deviation of body angular velocity jerk signal magnitude (Euclidean norm)
+Average frequency-domain standard deviation of body angular velocity jerk signal magnitude (Euclidean norm)
 	
 ---------------------------------------------------------------------
 ---------------------------------------------------------------------
